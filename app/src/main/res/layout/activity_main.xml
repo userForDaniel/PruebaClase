@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="CalcularCuota"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/txtMatricula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:autoText="false"
+                android:background="#36938D"
+                android:backgroundTint="#36938D"
+                android:gravity="center"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/appMatricula"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/MATRICULA"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ALUMNO"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/extAlumno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="#020202" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ESCUELA"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextEscuela"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <EditText
+                android:id="@+id/editTextTextCarrera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/GastosAdicionales"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxBiblioteca"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:checked="false"
+                android:onClick="accion"
+                android:text="@string/cARNE1" />
+
+            <CheckBox
+                android:id="@+id/checkBoxMedio"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:onClick="accion"
+                android:text="@string/cARNE2" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NUMERO01"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rbtn4"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:text="@string/CUOTA1" />
+
+                <RadioButton
+                    android:id="@+id/rbtn5"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:text="@string/CUOTA2" />
+
+                <RadioButton
+                    android:id="@+id/rbtn6"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:text="@string/CUOTA3" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/costo1"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/CostoCarrera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/costo2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Pension"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/costo3"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/GastosAdicionales"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/costo4"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="188dp"
+                        android:layout_height="65dp"
+                        android:backgroundTint="#252123"
+                        android:text="@string/cal"
+                        android:textColorHighlight="#4CAF50"
+                        android:textColorLink="#4CAF50" />
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="179dp"
+                        android:layout_height="65dp"
+                        android:backgroundTint="#A8E91E63"
+                        android:onClick="imprimir"
+                        android:text="@string/imp" />
+
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

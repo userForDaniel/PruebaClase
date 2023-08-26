@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+
+    <string name="appMatricula">appMatricula</string>
+    <string name="MATRICULA">MATRICULA</string>
+    <string name="ALUMNO">ALUMNO: </string>
+    <string name="ESCUELA">ESCUELA: </string>
+    <string name="CARRERA">CARRERA: </string>
+    <string name="GastosAdicionales">GASTOS ADICIONALES: </string>
+    <string name="cARNE1">Carnet Biblioteca</string>
+    <string name="cARNE2">Carnet Medio Pasaje</string>
+    <string name="NUMERO01">NUMERO DE CUOTAS: </string>
+    <string name="CUOTA1">4 </string>
+    <string name="CUOTA2">5 </string>
+    <string name="CUOTA3">6 </string>
+    <string name="costo1">COSTO CARRERA: </string>
+    <string name="costo2">PENSIÓN: </string>
+    <string name="costo3">GASTOS ADICIONALES: </string>
+    <string name="costo4">TOTAL PAGAR: </string>
+    <string name="cal"> CALCULAR </string>
+    <string name="imp"> IMPRIMIR </string>
+    <string name="lISTA"> Imprimir KVBE-Matricula</string>
+    <string name="lISTA1"> RESUMEN MATRICULA</string>
+
+    <string name="RESUMEN1"> ALUMNO: </string>
+    <string name="RESUMEN2"> ESCUELA: </string>
+    <string name="RESUMEN3"> CARRERA: </string>
+    <string name="RESUMEN4"> GASTOS ADICIONALES: </string>
+    <string name="RESUMEN5"> MONTO GASTO ADICIONAL: </string>
+    <string name="RESUMEN6"> NUMERO DE CUOTAS: </string>
+    <string name="RESUMEN7"> COSTO CARRERA $/: </string>
+    <string name="RESUMEN8"> PENSION: </string>
+    <string name="RESUMEN9"> GASTOS ADICIONALES $/: </string>
+    <string name="RESUMEN10"> TOTAL PAGAR $/: </string>
+
+    <string name="RESUMEN11"> Volver </string>
+</resources>
